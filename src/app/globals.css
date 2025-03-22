@@ -44,7 +44,7 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -90,7 +90,8 @@ body {
 }
 
 body {
-  background-color: rgb(247, 245, 242);
+  color: rgb(var(--foreground-rgb));
+  margin-top: 50px;
 }
 
 a {
@@ -98,7 +99,7 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
     color-scheme: dark;
   }
